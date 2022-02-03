@@ -1,0 +1,25 @@
+{
+  "name": "odin-restaurant-page",
+  "version": "1.0.0",
+  "description": "the odin project project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-command"
+  },
+  "repository": {
+    "type": "git",
+    "url": "odin-restaurant-page"
+  },
+  "keywords": [
+    "mykeywords"
+  ],
+  "author": "deep7raja-author",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
