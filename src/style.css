@@ -1,3 +1,68 @@
+:root{
+    --color1v: 217, 142, 50;
+    --color1: rgb(var(--color1v));
+    --color2v: 89, 53, 21;
+    --color2: rgb(var(--color2v));
+    --color3v: 140, 109, 81;
+    --color3: rgb(var(--color3v));
+    --color4v: 242, 208, 189;
+    --color4: rgb(var(--color4v));
+    --color5v: 242, 88, 53;
+    --color5: rgb(var(--color5v));
+
+
+
+    /* --color2: rgb(89, 53, 21);
+    --color3: rgb(140, 109, 81);
+    --color4: rgb(242, 208, 189);
+    --color5: rgb(242, 88, 53); */
+
+    --bg-menuMainDiv: var(--color1);
+    --cell-border: 5px solid var(--color2);;
+    --cell-border-radius: 20px;
+    --text-color: var(--color4);
+
+    
+}
+
+@font-face {
+    font-family: MagicMushroom;
+    src: url('./fonts/MagicMushroom.otf');
+}
+
 body{
-    background: url('./img/mushroom-pattern.png')
+    background: url('./img/mushroom-pattern.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.menuMainDiv{
+    background-color: rgba(var(--color1v), .85);
+    padding: 50px;
+    border-radius: 20px;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cell{
+    border: var(--cell-border);
+    border-radius: var(--cell-border-radius);
+    /* display: flex; */
+    /* align-items: center; */
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgba(var(--color3v), 1);
+}
+.titleDiv{
+    font-family: MagicMushroom;
+    font-size: 50px;
+    text-align: center;
+}
+
+.homeDiv{
+    
 }
